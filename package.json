@@ -38,7 +38,7 @@
     "build": "webpack --mode development",
     "start": "webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js",
-    "test": "./node_modules/karma/bin/karma start karma.conf.js"
+    "test": "node ./node_modules/karma/bin/karma start karma.conf.js"
   },
   "keywords": [],
   "author": "",
