@@ -9,22 +9,22 @@ describe("Galaxy", function() {
 
   it ( "determines the age of a person on mercury", function() {
 
-  expect(newGalaxy.mercuryChecker()).toEqual(12.5);
+  expect(newGalaxy.mercuryChecker()).toEqual(" you are " + 12.5 + " years old in mercury ");
 });
 
 it ( "determines the age of a person on venus", function() {
 
-expect(newGalaxy.venusChecker()).toEqual(4.838709677419355);
+expect(newGalaxy.venusChecker()).toEqual(" you are " + 4.838709677419355 + " years old in venus ");
 });
 
 it ( "determines the age of a person on mars", function() {
 
-expect(newGalaxy.marsChecker()).toEqual(1.595744680851064);
+expect(newGalaxy.marsChecker()).toEqual(" you are " + 1.595744680851064 + " years old in mars ");
 });
 
-it ( "determines the age of a person on mars", function() {
+it ( "determines the age of a person on jupiter", function() {
 
-expect(newGalaxy.marsChecker()).toEqual(1.595744680851064);
+expect(newGalaxy.jupiterChecker()).toEqual(" you are " + 0.25295109612141653 + " years old in jupiter ");
 });
 
 
