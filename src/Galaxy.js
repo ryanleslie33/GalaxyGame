@@ -6,13 +6,14 @@ export class Galaxy {
     // this.average = 80;
   }
 
-mercuryChecker(age) {
-
-  if ( this.age <= 100){
-    this.age + 3;
+mercuryChecker() {
+let age = this.age;
+let mercury = 2;
+  if ( age <= 100){
+    age * mercury;
 
   }
-return this.age;
+return age;
 
 }
 
