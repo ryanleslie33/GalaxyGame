@@ -1,0 +1,17 @@
+lifeChecker() {
+  var i = i;
+  let age = this.age;
+  const average = this.average;
+  let output = []
+  let yearsBefore = (average - age);
+  let yearsAfter = (age - average);
+  for(i = 0; i <= age; i ++) {
+    if (age <= average) {
+      return yearsBefore;
+    }
+    else {
+      return yearsAfter;
+    }
+  }
+
+}

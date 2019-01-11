@@ -10,47 +10,98 @@ export class Galaxy {
     let age = this.age;
     const mercury = 0.24;
     let answer = (age / mercury);
-    return (" you are " + answer + " years old in mercury ");
+    const average = this.average;
+    let output = []
+    var i = i;
+    let yearsBefore = (average - answer);
+    let yearsAfter = (answer - average);
 
+    if (age <= average) {
+
+      output.push("you have " + yearsBefore + " years before you reach your average life expectancy")
+    }
+    else  {
+      output.push("you have exceeded " + yearsAfter + "years after your life expectancy")
+    }
+    return (" you are " + answer + " years old in mercury " + output);
   }
 
   venusChecker() {
     let age = this.age;
     const venus = 0.62;
     let answer = (age / venus);
-    return (" you are " + answer + " years old in venus ");
+    const average = this.average;
+    let output = []
+    var i = i;
+    let yearsBefore = (average - answer);
+    let yearsAfter = (answer - average);
+
+    if (age <= average) {
+
+      output.push("you have " + yearsBefore + " years before you reach your average life expectancy")
+    }
+    else  {
+      output.push("you have exceeded " + yearsAfter + "years after your life expectancy")
+    }
+    return (" you are " + answer + " years old in venus " + output);
   }
 
   marsChecker() {
     let age = this.age;
     const mars = 1.88;
     let answer =  (age / mars);
-    return (" you are " + answer + " years old in mars ");
+    const average = this.average;
+    let output = []
+    var i = i;
+    let yearsBefore = (average - answer);
+    let yearsAfter = (answer - average);
+
+    if (age <= average) {
+
+      output.push("you have " + yearsBefore + "years before you reach your average life expectancy")
+    }
+    else  {
+      output.push("you have exceeded " + yearsAfter + "years after your life expectancy")
+    }
+    return (" you are " + answer + " years old in mars " + output);
   }
 
   jupiterChecker() {
     let age = this.age;
     const jupiter = 11.86;
     let answer =  (age / jupiter);
-    // let life = lifeChecker(answer);
-    return (" you are " + answer + " years old in jupiter ");
+    const average = this.average;
+    let output = []
+    var i = i;
+    let yearsBefore = (average - answer);
+    let yearsAfter = (answer - average);
+
+    if (age <= average) {
+
+      output.push("you have " + yearsBefore + "years before you reach your average life expectancy")
+    }
+    else  {
+      output.push("you have exceeded " + yearsAfter + "years after your life expectancy")
+    }
+    return (" you are " + answer + " years old in jupiter " + output);
   }
 
   lifeChecker() {
     var i = i;
     let age = this.age;
     const average = this.average;
+    let output = []
     let yearsBefore = (average - age);
     let yearsAfter = (age - average);
     for(i = 0; i <= age; i ++) {
       if (age <= average) {
-        return yearsBefore;
+        output.push(yearsBefore);
       }
-      else {
-        return yearsAfter;
+      else  {
+        output.push(yearsAfter)
       }
     }
-
+    return output;
   }
 
 
