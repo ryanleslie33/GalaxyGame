@@ -24,23 +24,15 @@ venusChecker() {
 marsChecker() {
   let age = this.age;
   const mars = 1.88;
-
-    if ( age <= 100){
-      (age / mars);
-
-    }
-  return age;
+  let answer =  (age / mars);
+      return answer;
 }
 
 jupiterChecker() {
   let age = this.age;
-  const jupiter= 11.86;
-
-    if ( age <= 100){
-      (age / jupiter);
-
-    }
-  return age;
+  const jupiter = 11.86;
+  let answer =  (age / jupiter);
+      return answer;
 }
 
 
