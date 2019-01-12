@@ -2,7 +2,6 @@ export class Galaxy {
 
   constructor(age){
     this.age = age;
-    // this.life = life;
     this.average = 80;
   }
 
@@ -86,23 +85,39 @@ export class Galaxy {
     return (" you are " + answer + " years old in jupiter " + output);
   }
 
-  lifeChecker() {
-    var i = i;
-    let age = this.age;
-    const average = this.average;
-    let output = []
-    let yearsBefore = (average - age);
-    let yearsAfter = (age - average);
+// export class Birthday{
+//   constructor(year,month,day){
+//     this.year = year;
+//     this.month= month;
+//     this.day = day;
+//   }
+//
+//
+//   findBirthday(){
+//     let userTime = new Date();
+//     let userMonth = userTime.getMonth();
+//     let userDay = userTime.getDay();
+//     let userYear = userTime.getYear();
+//   }
+// }
+  // lifeChecker() {
+  //   var i = i;
+  //   let age = this.age;
+  //   const average = this.average;
+  //   let output = []
+  //   let yearsBefore = (average - age);
+  //   let yearsAfter = (age - average);
+  //
+  //     if (age <= average) {
+  //       output.push(yearsBefore);
+  //     }
+  //     else  {
+  //       output.push(yearsAfter)
+  //     }
+  //
+  //   return output;
+  // }
 
-      if (age <= average) {
-        output.push(yearsBefore);
-      }
-      else  {
-        output.push(yearsAfter)
-      }
-
-    return output;
-  }
 
 
 }

@@ -2,12 +2,12 @@ import { Galaxy } from '/Users/Guest/desktop/GalaxyGame/src/Galaxy.js';
 
 describe("Galaxy", function() {
   let newGalaxy;
-  let newGalaxy2;
+  // let newGalaxy2;
   let newGalaxy3;
 
   beforeEach(function() {
     newGalaxy = new Galaxy(3);
-    newGalaxy2 = new Galaxy(20);
+    // newGalaxy2 = new Galaxy(20);
     newGalaxy3 = new Galaxy(81);
   });
 
@@ -36,10 +36,10 @@ it ( "determines the age of a person on jupiter and life expectancy", function()
 expect(newGalaxy.jupiterChecker()).toEqual(" you are " + 0.25295109612141653 + " years old in jupiter " + "you have " + 79.74704890387858 + "years before you reach your average life expectancy");
 });
 
-it ( "determines how many years the user has left to live", function() {
-
-expect(newGalaxy2.lifeChecker()).toEqual([60]);
-});
+// it ( "determines how many years the user has left to live", function() {
+//
+// expect(newGalaxy2.lifeChecker()).toEqual([60]);
+// });
 
 
 });
