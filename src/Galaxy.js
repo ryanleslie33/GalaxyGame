@@ -21,7 +21,7 @@ export class Galaxy {
       output.push("you have " + yearsBefore + " years before you reach your average life expectancy")
     }
     else  {
-      output.push("you have exceeded " + yearsAfter + "years after your life expectancy")
+      output.push("you have exceeded " + yearsAfter + " years after your life expectancy")
     }
     return (" you are " + answer + " years old in mercury " + output);
   }
@@ -93,14 +93,14 @@ export class Galaxy {
     let output = []
     let yearsBefore = (average - age);
     let yearsAfter = (age - average);
-    for(i = 0; i <= age; i ++) {
+
       if (age <= average) {
         output.push(yearsBefore);
       }
       else  {
         output.push(yearsAfter)
       }
-    }
+
     return output;
   }
 
